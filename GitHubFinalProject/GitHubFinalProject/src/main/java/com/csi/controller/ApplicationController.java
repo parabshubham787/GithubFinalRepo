@@ -13,4 +13,10 @@ public class ApplicationController {
     {
         return "Git Related API";
     }
+
+    @GetMapping("/loan")
+    public String loanService()
+    {
+        return "Loan";
+    }
 }
